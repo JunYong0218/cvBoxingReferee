@@ -126,6 +126,8 @@ def init_model():
     * 數據集規模：約 1,000 張拳擊場景影像。
     * 資料標註：使用 labelme 進行標註，涵蓋類別包括選手身體、拳套、頭部。
     * 訓練成效：隨著訓練迭代，分割損失 (Seg Loss) 顯著下降，mAP50-95 呈現穩定上升趨勢，模型能有效捕捉選手肢體輪廓。
+      <img width="589" height="401" alt="image" src="https://github.com/user-attachments/assets/7927c9f7-3b93-4a4d-892a-42adbb8b2684" />
+
 
 * **多鏡頭判分邏輯**
     * 邊緣偵測：同步擷取三個視角畫面，提取選手輪廓。
