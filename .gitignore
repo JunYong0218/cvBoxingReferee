@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 環境變數
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 模型檔案
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# 視訊和影像
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# 日誌
+*.log
+
+# 資料庫
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 專案特定
+identification.py.old
+test_*.py
+debug/
